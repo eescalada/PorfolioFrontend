@@ -1,0 +1,16 @@
+{
+  "name": "Eliana Escalada",
+  "position": "Full Stack Developer",
+  "education":[{
+    "school":"Escuela de Educacion Técnica N°2 Mercedez V.de Labbé",
+    "title": "Técnico Mecánico",
+    "start": "1991",
+    "end": "1997"
+  },
+  {
+    "school":"Ministerio de Desarrollo Productivo",
+    "title":"Argentina Programa 1°etapa",
+    "start":"25 de Octubre/21",
+    "end":"17 de Diciembre/21"
+  }]
+}
