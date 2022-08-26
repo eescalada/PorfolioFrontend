@@ -14,7 +14,7 @@ header{
     background-color: white;
     height: 80px;
 
-   
+
 }
 
 .header{
@@ -29,6 +29,24 @@ header{
     margin: 0.5cm;
 
 }
+footer{
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 80px;
+
+}
+
+
+
+/*.proyecto li{
+  display: flex;
+  list-style-type: none;
+  margin: 0.5cm;
+
+}
+
 
 
 
@@ -41,7 +59,7 @@ header{
 }
 
 
-  
+
 .footer ul{
     flex-wrap: wrap;
     display: flex;
