@@ -19,7 +19,8 @@
 
                   </li>
                   <li>
-                      <button type="button" class="btn btn-outline-primary" (click)="login()">Login</button>
+                    <button type="button" class="btn btn-outline-primary" (click)="login()" *ngIf="!isLogged">INGRESO</button>
+                    <button type="button" class="btn btn-outline-primary" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>
                   </li>
               </ul>
 
