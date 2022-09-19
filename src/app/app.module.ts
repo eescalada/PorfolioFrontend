@@ -17,6 +17,7 @@ import { HomeComponent } from './componentes/home/home.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { FormsModule } from '@angular/forms';
+import { interceptorProvider } from './servicios/interceptor-service';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,9 @@ import { FormsModule } from '@angular/forms';
     NgCircleProgressModule.forRoot({}),
     FormsModule
   ],
-  providers: [],
+  providers: [
+    interceptorProvider
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
