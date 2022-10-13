@@ -10,6 +10,8 @@ import { ProyectosPreviosComponent } from '../componentes/proyectos-previos/proy
 import { HomeComponent } from '../componentes/home/home.component';
 import { LoginComponent } from '../componentes/login/login.component';
 import { FooterComponent } from '../componentes/footer/footer.component';
+import { NewExperienciaComponent } from '../componentes/experiencia-laboral/new-experiencia.component';
+import { EditExperienciaComponent } from '../componentes/experiencia-laboral/edit-experiencia.component';
 
 
 const routes: Routes = [
@@ -21,7 +23,9 @@ const routes: Routes = [
   {path: 'educacion', component:EducacionComponent},
   {path: 'habilidades', component:HabilidadesComponent},
   {path: 'proyectos-previos', component:ProyectosPreviosComponent},
-  {path: 'footer', component:FooterComponent}
+  {path: 'footer', component:FooterComponent},
+  {path: 'nuevaexp', component: NewExperienciaComponent},
+  {path: 'editexp/:id', component: EditExperienciaComponent}
 
 ];
 
