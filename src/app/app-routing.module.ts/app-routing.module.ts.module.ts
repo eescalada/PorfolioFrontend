@@ -12,6 +12,8 @@ import { LoginComponent } from '../componentes/login/login.component';
 import { FooterComponent } from '../componentes/footer/footer.component';
 import { NewExperienciaComponent } from '../componentes/experiencia-laboral/new-experiencia.component';
 import { EditExperienciaComponent } from '../componentes/experiencia-laboral/edit-experiencia.component';
+import { NeweducacionComponent } from '../componentes/educacion/neweducacion.component';
+import { EditeducacionComponent } from '../componentes/educacion/editeducacion.component';
 
 
 const routes: Routes = [
@@ -25,7 +27,9 @@ const routes: Routes = [
   {path: 'proyectos-previos', component:ProyectosPreviosComponent},
   {path: 'footer', component:FooterComponent},
   {path: 'nuevaexp', component: NewExperienciaComponent},
-  {path: 'editexp/:id', component: EditExperienciaComponent}
+  {path: 'editexp/:id', component: EditExperienciaComponent},
+  {path: 'nuevaedu', component: NeweducacionComponent},
+  {path: 'editedu/:id', component: EditeducacionComponent},
 
 ];
 
