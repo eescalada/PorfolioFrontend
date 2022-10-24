@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module.ts/app-routing.module.ts.module';
-
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { EncabezadoComponent } from './componentes/encabezado/encabezado.component';
@@ -24,6 +23,7 @@ import { NeweducacionComponent } from './componentes/educacion/neweducacion.comp
 import { EditeducacionComponent } from './componentes/educacion/editeducacion.component';
 import { EditSkillComponent } from './componentes/habilidades/edit-skill.component';
 import { NewSkillComponent } from './componentes/habilidades/new-skill.component';
+/*import { EditencabezadoComponent } from './componentes/encabezado/editencabezado.component';*/
 
 @NgModule({
   declarations: [
@@ -44,7 +44,8 @@ import { NewSkillComponent } from './componentes/habilidades/new-skill.component
     NeweducacionComponent,
     EditeducacionComponent,
     EditSkillComponent,
-    NewSkillComponent
+    NewSkillComponent,
+    /*EditencabezadoComponent*/
   ],
   imports: [
     BrowserModule,

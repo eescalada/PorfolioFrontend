@@ -5,9 +5,11 @@ export class persona{
 
 
 
+
   constructor(nombre: string, apellido: string){
     this.nombre= nombre;
     this.apellido= apellido;
+
   }
 
 }
