@@ -30,9 +30,9 @@
 
           <div>
 
-            <td *ngIf="isLogged">
+            <td *ngIf="isAdmin">
               <button class="btn btn-light" routerLink="/editskill/{{skill.id}}"><i class="bi bi-pencil-fill"></i></button></td>
-            <td *ngIf="isLogged">
+            <td *ngIf="isAdmin">
               <button class="btn btn-danger" (click)="delete(skill.id)"><i class="bi bi-trash"></i></button>
             </td>
           </div>
